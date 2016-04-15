@@ -29,29 +29,7 @@ public class helloword {
         System.out.println("Test Math.min");
         Assert.assertEquals(2.0, Math.min(2.0, 4.0), 0.0);
     }
-
-//    // ÆÚÍû´Ë·½·¨Å×³öNullPointerExceptionÒì³£
-//    @Test(expected = NullPointerException.class)
-//    public void testException() {
-//        System.out.println("Test exception");
-//        Object obj = null;
-//        obj.toString();
-//    }
-
-//    // ºöÂÔ´Ë²âÊÔ·½·¨
-//    @Ignore
-//    @Test
-//    public void testMathMax() {
-//        Assert.fail("Ã»ÓĞÊµÏÖ");
-//    }
-//    // Ê¹ÓÃ¡°¼ÙÉè¡±À´ºöÂÔ²âÊÔ·½·¨
-//    @Test
-//    public void testAssume(){
-//        System.out.println("Test assume");
-//        // µ±¼ÙÉèÊ§°ÜÊ±£¬Ôò»áÍ£Ö¹ÔËĞĞ£¬µ«Õâ²¢²»»áÒâÎ¶²âÊÔ·½·¨Ê§°Ü¡£
-//        Assume.assumeTrue(false);
-//        Assert.fail("Ã»ÓĞÊµÏÖ");
-//    }
+//ä¸ºä»€ä¹ˆ
 
     @After
     public void tearDown() throws Exception {
